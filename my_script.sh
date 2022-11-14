@@ -20,7 +20,7 @@ TEXT_GREEN=$(tput setaf 2)
 TEXT_RESET=$(tput sgr0)
 
 
-##### Funciones
+##### Funciones 
 
 
 system_info()
@@ -72,13 +72,11 @@ cat << _EOF_
 
 $TEXT_BOLD$TITLE$TEXT_RESET
 
-
 $TEXT_GREEN$TIME_STAMP$TEXT_RESET
 
 _EOF_
 
-
 system_info
 show_uptime
 drive_space
-home_space
+home_space  
