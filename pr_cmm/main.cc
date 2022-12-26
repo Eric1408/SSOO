@@ -1,7 +1,12 @@
 #include <iostream>
-
-#include "copyfile.h"
+#include <cstdlib>
 #include "usage.h"
+
+void copy_file(const std::string& src_path, const std::string& dst_path, bool preserve_all=false) {
+
+}
+
+void move_file(const std::string& src_path, const std::string& dst_path);
 
 int main(int argc, char* argv[]) {
   Usage(argc, argv);
