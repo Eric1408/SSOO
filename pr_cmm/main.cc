@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
   std::string option = argv[1];
   if (option == "-m") {
     
-  } else if (option == "a") {
+  } else if (option == "-a") {
 
   }
  
